@@ -2,8 +2,10 @@
 "
 "Author:Luciano Simon
 "
-"Date:2016-07-04 14:30
+"Date:2016-07-04 23:00
 "
+"Description:In vim command line, use "echo $VIM" to query where is the global config
+" 	     file of vim
 "=================================================
 set nocompatible
 syntax on
@@ -30,6 +32,8 @@ set hidden
 set guioptions-=T
 set guioptions-=m
 set smartindent
+set autoindent
 set backspace=indent,eol,start
 set cmdheight=1
 set laststatus=2
+set expandtab
