@@ -2,10 +2,9 @@
 "
 "Author:Luciano Simon
 "
-"Date:2016-07-04 23:00
+"Date:2016-07-05 16:34
 "
-"Description:In vim command line, use "echo $VIM" to query where is the global config
-" 	     file of vim
+"Description:In vim command line, use "echo $VIM" to query where is the global config file of vim
 "=================================================
 set nocompatible
 syntax on
