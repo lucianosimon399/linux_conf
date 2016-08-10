@@ -2,7 +2,7 @@
 "
 "Author:Luciano Simon
 "
-"Date:2016-07-05 16:34
+"Date:2016-08-10 15:19
 "
 "Description:In vim command line, use "echo $VIM" to query where is the global config file of vim
 "=================================================
@@ -36,3 +36,4 @@ set backspace=indent,eol,start
 set cmdheight=1
 set laststatus=2
 set expandtab
+set nrformats=
