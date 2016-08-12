@@ -19,3 +19,10 @@ class bcolors:
     ENDC = '\033[0m'
     BOLD = '\033[1m'
     UNDERLINE = '\033[4m'
+
+def get_input(prompt):
+    m = input(prompt)
+    while not m:
+        print("You input nothing, please again.")
+        m = input(prompt)
+    return m
