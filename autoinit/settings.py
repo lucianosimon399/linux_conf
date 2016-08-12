@@ -1,4 +1,5 @@
-import os
+import getpass
+from os import path
 
 SOFTWARES = [
         'git',
@@ -6,4 +7,8 @@ SOFTWARES = [
         'zsh',
 ]
 
-BASE_DIR = os.path.abspath("..")
+BASE_DIR = path.abspath("..")
+USER_DIR = path.expanduser("~")
+USER_NAME = getpass.getuser()
+CONF_USER = "Luciano Simon"
+CONF_EMAIL = "lucianosimon399@yahoo.com"
