@@ -1,2 +1,2 @@
 #ignore python cache file
-*__pycache__/*
+autoinit/__pycache__/*
