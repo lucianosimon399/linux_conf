@@ -37,3 +37,4 @@ set cmdheight=1
 set laststatus=2
 set expandtab
 set nrformats=
+set pastetoggle=<f5>
