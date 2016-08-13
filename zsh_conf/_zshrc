@@ -1,11 +1,11 @@
 # Path to your oh-my-zsh installation.
-  export ZSH=~/.oh-my-zsh
+  export ZSH=/home/luciano/.oh-my-zsh
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="avit"
+ZSH_THEME="bureau"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -82,3 +82,12 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+#apt alias
+alias ai="sudo apt install"
+alias au="sudo apt update && sudo apt upgrade"
+alias af="sudo apt -f install"
+#git alias
+alias ga="git add"
+alias gc="git commit -m"
+alias gp="git push origin"
+alias gpu="git push -u origin"
