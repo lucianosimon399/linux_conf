@@ -38,3 +38,4 @@ set laststatus=2
 set expandtab
 set nrformats=
 set pastetoggle=<f5>
+hi CursorLine cterm=NONE ctermbg=black ctermfg=NONE guibg=NONE guifg=NONE
