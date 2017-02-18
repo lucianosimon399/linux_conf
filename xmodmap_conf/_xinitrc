@@ -1,0 +1,2 @@
+xmodmap ~/.xmodmap 2>/dev/null
+
