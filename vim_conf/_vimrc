@@ -184,8 +184,13 @@ let g:ctrlp_custom_ignore = {'dir':  '\v[\/]\.(git|hg|svn)$', 'file': '\v\.(exe|
 
 " Ariline 配置{{{
 let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#tabline#buffer_nr_show = 1
 let g:airline#extensions#tabline#left_sep = ' '
 let g:airline#extensions#tabline#left_alt_sep = '|'
+
+" 设置切换buffer的快捷键
+nnoremap <leader>n :bn<CR>
+nnoremap <leader>p :bp<CR>
 
 if !exists('g:airline_symbols')
   let g:airline_symbols = {}
